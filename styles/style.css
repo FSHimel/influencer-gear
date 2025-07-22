@@ -72,3 +72,13 @@
     background-image: url(../images/Circle\ design.svg);
     height: 475px;
 }
+
+/* Sponsor section */
+
+.sponsor{
+    width: 987px;
+    display: flex;
+    gap: 61px;
+    align-items: center;
+    padding: 34px 62px;
+}
