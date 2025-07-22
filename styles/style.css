@@ -1,0 +1,74 @@
+*{
+    margin: 0px auto;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*display flex */
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Icons */
+.search, .shopping, .arrow{
+    width: 24px;
+    height: 24px;
+}
+
+/*Primary Button*/
+.btn-primary{
+    background-color: rgb(224, 44, 109);
+    color: white;
+    padding: 10px 24px;
+}
+
+/*Navbar design*/
+.navbar{
+    max-width: 1240px;
+    margin-top: 87px;
+}
+.navbar h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.navbar ul{
+    list-style: none;
+    width: 463px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+/* Hero section */
+.hero{
+    max-width: 1200px;
+    margin: 145px 165px 170px 120px ;
+}
+.wlc-intro .title{
+    width: 582px;
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+.wlc-intro .sub-title{
+    margin-left: 0px;
+    margin-bottom: 16px;
+    width: 505px;
+    font-weight: 500;
+}
+.hero button{
+    display: flex;
+    margin-left: 0px;
+    gap: 8px;
+    align-items: center;
+    border: none;
+    border-radius: 42px;
+}
+.main-camera{
+    background-image: url(../images/Circle\ design.svg);
+    height: 475px;
+}
